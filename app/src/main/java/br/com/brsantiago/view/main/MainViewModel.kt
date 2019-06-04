@@ -2,7 +2,7 @@ package br.com.brsantiago.view.main
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.OnLifecycleEvent
-import br.com.atech.ecams.base.BaseViewModel
+import br.com.brsantiago.base.BaseViewModel
 import br.com.brsantiago.network.IssueService
 import kotlinx.coroutines.launch
 

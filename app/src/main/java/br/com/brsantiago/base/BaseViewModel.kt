@@ -1,4 +1,4 @@
-package br.com.atech.ecams.base
+package br.com.brsantiago.base
 
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.ViewModel
