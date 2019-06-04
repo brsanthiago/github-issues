@@ -1,7 +1,7 @@
 package br.com.brsantiago.domain
 
 import com.google.gson.annotations.SerializedName
-import java.util.Date
+import java.util.*
 
 data class Issue(
     val title: String,

@@ -15,10 +15,10 @@ class IssueApp : Application() {
     }
 
     open fun initKoin() = startKoin {
-
         androidLogger()
         androidContext(this@IssueApp)
         androidFileProperties()
-        modules(issueModule) }
+        modules(issueModule)
+    }
 
 }
