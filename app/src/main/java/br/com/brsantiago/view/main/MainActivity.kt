@@ -6,11 +6,14 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.brsantiago.R
 import br.com.brsantiago.domain.Issue
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.viewmodel.ext.android.viewModel
+
+
 
 class MainActivity : AppCompatActivity(), LifecycleOwner {
 
@@ -37,6 +40,8 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
         lifecycleRegistry = LifecycleRegistry(this)
         lifecycleRegistry.addObserver(viewModel)
         lifecycleRegistry.markState(Lifecycle.State.CREATED)
+        val decoration = DividerItemDecoration(applicationContext, DividerItemDecoration.VERTICAL)
+        recycler_view.addItemDecoration(decoration)
     }
 
     override fun getLifecycle(): Lifecycle {

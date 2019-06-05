@@ -14,7 +14,7 @@ class IssueApp : Application() {
         initKoin()
     }
 
-    open fun initKoin() = startKoin {
+    fun initKoin() = startKoin {
         androidLogger()
         androidContext(this@IssueApp)
         androidFileProperties()
