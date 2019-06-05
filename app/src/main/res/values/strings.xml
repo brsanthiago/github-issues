@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Kotlin Issues</string>
     <string name="hash">#</string>
-    <string name="openedBy">Opened by: </string>
+    <string name="openedBy">Opened by:</string>
 </resources>

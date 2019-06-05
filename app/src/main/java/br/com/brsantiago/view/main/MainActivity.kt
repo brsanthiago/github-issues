@@ -14,7 +14,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.viewmodel.ext.android.viewModel
 
 
-
 class MainActivity : AppCompatActivity(), LifecycleOwner {
 
     private lateinit var lifecycleRegistry: LifecycleRegistry
